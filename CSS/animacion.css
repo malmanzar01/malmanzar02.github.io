@@ -1,0 +1,48 @@
+p {
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+/*  @keyframes Regla CSS que sirve para controlar los pasos intermedios en una secuencia de    
+    animación CSS.  Este sencillo ejemplo da estilos al elemento <p> para que el texto se deslice por la
+pantalla entrando desde el borde derecho de la ventana del navegador.*/
+@keyframes slidein { 
+
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+
+
+  
+.promo {
+  position: fixed;
+  right: 300px;
+  top: 70px;
+}
+.promo:hover { /* Animación al pasar el mouse por encima del objeto*/
+  animation-name: stick-out;
+  animation-duration: 1s;
+}
+@keyframes stick-out {
+  from {
+    right: 300px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+ 

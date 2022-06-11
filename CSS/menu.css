@@ -1,0 +1,106 @@
+
+body
+{
+	margin:0px;
+	padding-top:5px;
+}
+
+#main_container
+{
+	width:90%;
+	margin-left:5%;
+	padding-top:5px;
+	padding-bottom:5px;
+	float:left;
+	border: 7px ridge; /*outset ridge inset*/
+}
+
+/*Content*/
+.content{
+	width:90%;
+	margin-top:5px;
+	margin-left:5%;
+	padding-bottom:50px;
+	background:lavender;
+	border: 1px solid ; /*dashed solid dotted double groove hidden none*/
+	height: auto;
+	float:left;
+}
+
+.content article
+{
+	padding: 3%;
+}
+
+/*Header*/
+.header
+{
+	width:90%;
+	margin-top:5px;
+	margin-left:5%;
+	background:#00FFFF;/*#008080  #00FFFF  #FFA07A #FA8072 #F08080 #CD5C5C #E9967A */
+	border:3px outset ; /*outset ridge inset*/
+	height: 150px;
+	float:left;
+}
+
+/*Menu */
+.top_menu ul
+{
+	list-style:none;
+	float:left;
+	/*border: 1px dashed;*/
+	padding:2%;
+	width:100%;
+}
+
+.top_menu ul li
+{
+	float: left;/*  middle right left*/
+	margin-right:50px;
+	margin-bottom:50px;
+	background:#FFA07A ;/*#008080  #00FFFF  #FFA07A #FA8072 #F08080 #CD5C5C #E9967A */
+	padding:10px;
+	border:solid 20px #F08080; /*dashed solid dotted double groove hidden none*/
+	border-radius: inherit;/* 50% inherit= heredadas */  
+    
+}
+.top_menu ul li a
+{
+	color:white;/*color de las letras*/
+	
+	text-decoration:none;
+	
+	
+}
+.top_menu ul li a:hover
+{
+	color: black;
+}
+
+	
+/*Footer*/
+.footer
+{
+	width:90%;
+	margin-top:5px;
+	margin-left:5%;
+	background:#ffffff;
+	border: 3px outset;
+	height: 110px;
+	float:left;
+}
+
+.footer_message
+{
+    margin-top: 50px;
+	float: left;
+	margin-left: 40%;
+	font-size: 1em;
+	color: blue;
+}
+
+
+
+ 
+

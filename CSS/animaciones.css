@@ -1,0 +1,20 @@
+
+     
+.promo {
+  position: fixed;
+  right: -410px;
+  top: 70px;
+}
+.promo:hover {
+  animation-name: stick-out;
+  animation-duration: 1s;
+}
+@keyframes stick-out { /* @keyframes permite a los autores controlar los pasos intermedios en una secuencia de animación CSS
+                       mediante el establecimiento de keyframes (o puntos de trayectoria)*/*/
+  from {
+    right: -410px;
+  }
+  to {
+    right: 0;
+  }
+}

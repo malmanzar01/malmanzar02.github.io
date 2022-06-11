@@ -1,0 +1,36 @@
+.banneranimado{ 
+  width:1200px;
+  height:200px;
+  border: 2px solid black;
+  margin:auto;
+  background-size:100% 100%;
+  /*animation-name:banneranimado;*/
+  /*animation-duration:10s;*/
+  /*animation-iteration-count:infinite;*/
+  animation: banneranimado 10s infinite;
+  width:100%;  
+  /*animation-direction:alternate;/*Para que no regrese a la primera animacion cuando termine sino que vuelva a la anterior y luego a la primera*/
+  
+  }
+/*Paradas que va a tener la animación*/
+ @keyframes banneranimado {   /*@keyframes permite a los autores controlar los pasos intermedios en una secuencia de animación CSS mediante el establecimiento de keyframes (o puntos de trayectoria)*/
+	0%,30%{
+		background-image:url(../imagenes/banner1.jpeg);
+	     opacity:1; 
+		 
+		   }
+	31%,34%{
+		opacity:0.1;
+		   }
+	35%,65%{
+		background-image:url(../imagenes/banner2.jpeg);
+	      opacity:1; 
+		   }
+	66%,69%{
+		opacity:0.1;
+		   }
+	70%,100%{
+		background-image:url(../imagenes/banner3.jpeg);
+	     opacity:1;  
+		   }	
+	}
